@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #EC4780;
+    overflow-x: hidden;
+}
+.container-fluid{
+    max-width: 1777px;
+    width: 95%;
+}
+
+.container{
+    max-width: 1351px;
+    width: 90%;
+}
+
+
+.container-custom{
+    max-width: 1650px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+// Button
+
+.btn{
+
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #EC4780;
+    font-weight: 400;
+    padding: .9rem 4rem;
+    border-radius: 50px;
+
+    &:hover{
+        background-color: #000000;
+        border-color: #000000;
+        color: #fff;
+    }
+
+    &.lg{
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 1.2rem 3.5rem;
+    }
+
+    &__inline{
+        font-size: 2rem;
+        color: #fff;
+        text-decoration: underline;
+        margin-top: 4.5rem;
+        display: inline-block;
+        padding: 1rem 0;
+
+        &:hover{
+            color: #fff;
+        }
+    }
+}
+
+
+// Reuse
+
+h2{
+    font-size: 4rem;
+    line-height: 5.1rem;
+    color: #EC4780;
+
+    &.bold{
+        font-weight: 600;
+    }
+}
+
+.description{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #EC4780;
+    margin-top: 2rem;
+}
+
+
+// Nav
+
+.nav{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 5rem 0rem;
+
+    &__logo{
+        max-width: 13rem;
+        width: 100%;
+    }
+
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+// Header
+
+.header{
+
+    background-image: url(../img/HeaderImg.png);
+    padding: 44rem 0 9rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+
+    &__heading{
+        font-size: 14rem;
+        color: #000000;
+        font-weight: 500;
+        margin-bottom: 6rem;
+    }
+
+    &__btnbox{
+
+    }
+
+    &__btn{
+        max-width: 23rem;
+        width: 100%;
+    }
+}
+
+
+// Details
+
+.details{
+
+    padding: 14.5rem 0 15.5rem 0;
+    max-width: 111.4rem;
+    margin: 0 auto;
+
+}
+
+
+// Reward
+
+.reward{
+
+
+    &__img{
+        max-width: 58rem;
+        transform: scale(1.2);
+        width: 100%;
+    }
+
+    &__vector{
+        max-width: 11rem;
+        width: 100%;
+    }
+}
+
+
+// services
+
+.services{
+
+    padding: 30rem 0 22rem 0;
+    background-image: url(../img/Polygon-1.png);
+    background-size: 100% 100%;
+    // clip-path: polygon(28% 0, 100% 9%, 100% 91%, 28% 100%, 0 91%, 0% 60%, 0 9%);
+    // box-shadow: 0px 0px 55px 0 rgba(0, 0, 0, 1);
+
+    &__img{
+        max-height: 7.2rem;
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: 4.5rem;
+    }
+}
+
+
+// Merchants
+
+.merchants{
+
+    &__img{
+        max-width: 44.4rem;
+        width: 100%;
+    }
+}
+
+// Snack
+
+
+.snack{
+
+    .container{
+        max-width: 120.7rem;
+        margin: 0 auto;
+    }
+
+    padding: 23rem 0;
+
+    background-image: url(../img/Polygon-2.png);
+    background-size: 100% 100%;
+
+    &__logo{
+        max-width: 17rem;
+        width: 100%;
+        margin-bottom: 4.5rem;
+    }
+}
+
+
+
+// shop
+
+.shop{
+    padding: 12rem 0 0 0;
+}
+
+// Footer
+
+.footer{
+
+    padding: 18rem 0 11rem 0;
+
+    font-size: 2rem;
+
+    &__flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__right{
+
+        a{
+            color: #EC4780;
+            margin-left: 3rem;
+        }
+
+    }
+
+    &__left{
+
+    }
+
+    &__logo{
+        max-width: 13rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+// Form
+
+.form{
+
+    padding: 23rem 0 13rem 0;
+    position: relative;
+
+    &__after{
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        z-index: -1;
+    }
+
+    &__wrapper{
+        max-width: 52rem;
+    }
+
+    &__textbox{
+        max-width: 42rem;
+    }
+    
+
+    form{
+        margin-top: 5.5rem;
+
+        .btn{
+            font-size: 2rem;
+            font-weight: 400;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 16px;
+            padding: 1.1rem 6.5rem;
+        }
+    }
+
+    .form-control{
+
+        border-radius: 1.6rem;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+        padding: 3rem 2rem;
+        border: none;
+        margin-bottom: 2.8rem;
+        background-color: #fff;
+        font-size: 2rem;
+        color: #000;
+
+        &::placeholder{
+            font-size: 2rem;
+            color: #000;
+        }
+    }
+}

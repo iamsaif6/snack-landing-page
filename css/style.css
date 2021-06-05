@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #EC4780;
+  overflow-x: hidden; }
+
+.container-fluid {
+  max-width: 1777px;
+  width: 95%; }
+
+.container {
+  max-width: 1351px;
+  width: 90%; }
+
+.container-custom {
+  max-width: 1650px;
+  width: 90%;
+  margin: 0 auto; }
+
+.btn {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #EC4780;
+  font-weight: 400;
+  padding: .9rem 4rem;
+  border-radius: 50px; }
+  .btn:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #fff; }
+  .btn.lg {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1.2rem 3.5rem; }
+  .btn__inline {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 4.5rem;
+    display: inline-block;
+    padding: 1rem 0; }
+    .btn__inline:hover {
+      color: #fff; }
+
+h2 {
+  font-size: 4rem;
+  line-height: 5.1rem;
+  color: #EC4780; }
+  h2.bold {
+    font-weight: 600; }
+
+.description {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #EC4780;
+  margin-top: 2rem; }
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5rem 0rem; }
+  .nav__logo {
+    max-width: 13rem;
+    width: 100%; }
+  .nav__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.header {
+  background-image: url(../img/HeaderImg.png);
+  padding: 44rem 0 9rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  .header__heading {
+    font-size: 14rem;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 6rem; }
+  .header__btn {
+    max-width: 23rem;
+    width: 100%; }
+
+.details {
+  padding: 14.5rem 0 15.5rem 0;
+  max-width: 111.4rem;
+  margin: 0 auto; }
+
+.reward__img {
+  max-width: 58rem;
+  transform: scale(1.2);
+  width: 100%; }
+
+.reward__vector {
+  max-width: 11rem;
+  width: 100%; }
+
+.services {
+  padding: 30rem 0 22rem 0;
+  background-image: url(../img/Polygon-1.png);
+  background-size: 100% 100%; }
+  .services__img {
+    max-height: 7.2rem;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 4.5rem; }
+
+.merchants__img {
+  max-width: 44.4rem;
+  width: 100%; }
+
+.snack {
+  padding: 23rem 0;
+  background-image: url(../img/Polygon-2.png);
+  background-size: 100% 100%; }
+  .snack .container {
+    max-width: 120.7rem;
+    margin: 0 auto; }
+  .snack__logo {
+    max-width: 17rem;
+    width: 100%;
+    margin-bottom: 4.5rem; }
+
+.shop {
+  padding: 12rem 0 0 0; }
+
+.footer {
+  padding: 18rem 0 11rem 0;
+  font-size: 2rem; }
+  .footer__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .footer__right a {
+    color: #EC4780;
+    margin-left: 3rem; }
+  .footer__logo {
+    max-width: 13rem;
+    margin-bottom: 1.5rem; }
+
+.form {
+  padding: 23rem 0 13rem 0;
+  position: relative; }
+  .form__after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1; }
+  .form__wrapper {
+    max-width: 52rem; }
+  .form__textbox {
+    max-width: 42rem; }
+  .form form {
+    margin-top: 5.5rem; }
+    .form form .btn {
+      font-size: 2rem;
+      font-weight: 400;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 16px;
+      padding: 1.1rem 6.5rem; }
+  .form .form-control {
+    border-radius: 1.6rem;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    padding: 3rem 2rem;
+    border: none;
+    margin-bottom: 2.8rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #000; }
+    .form .form-control::placeholder {
+      font-size: 2rem;
+      color: #000; }
